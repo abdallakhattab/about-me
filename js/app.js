@@ -13,6 +13,7 @@ let age = prompt ('how old are you?' )
 //console.log(age)
 if (age > 18 && age <28) { alert (' we are close in age i am ' + ownerage)}
 let a = prompt(' doing well ??') 
+a= a.toLowerCase()
 switch  (a) { 
    case 'yes' :alert ('me too am happy with my life ')
    break;
@@ -23,23 +24,39 @@ switch  (a) {
    case 'n' : alert("i am sorry")
    break;
 }
- let b = prompt(' what is my favuorite pet cats or dogs ? ')
+ let b = prompt(' is my favuorite pet cats ? ')
+ b=b.toLowerCase()
 switch  (b) { 
-    case 'cats' :alert ('correct ')
+    case 'yes' :alert ('correct ')
     break;
-    case 'dogs' : alert("nope")
+    case 'y' : alert ('correct ')
+    break;
+    case 'no' : alert("nope")
+    break;
+    case 'n' : alert("nope")
     break;}
-    let c= prompt(' what is my favuorite instrument , ney or piano ? ')
+    let c= prompt(' is my favuorite instrument piano ? ')
+   c=c.toLowerCase()
 switch  (c) { 
-    case 'ney' :alert ('correct ')
+    case 'yes' :alert ('correct ')
+    break ;
+    case 'y' : alert ('correct ')
     break;
-    case 'piano' : alert("nope")
+    case 'no' : alert("nope")
+    break ;
+    case 'n' : alert("nope")
+    break;
     }
-let d = prompt(' do i love summer or winter ?')
+let d = prompt(' do i love summer ?')
+d = d.toLowerCase()
     switch  (d) { 
-        case 'summer' :alert ('correct ')
+        case 'yes' :alert ('correct ')
         break;
-        case 'winter' : alert("nope")
+        case 'y' : alert ('correct ')
+        break;
+        case 'no' : alert("nope")
+        break;
+        case 'n' : alert("nope")
         break;}
 
 alert( 'your name is ' + username + ' and  my name is abdalla' + " your age is  " + age + ' and i am 24' 
