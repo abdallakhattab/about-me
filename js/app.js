@@ -158,7 +158,9 @@ function question7(color){
 question7(color);
 
 function result(alert){
-  alert('your score is ' + score + ' outof 6')
+  console.log(' YOUR SCORE');
+  alert('your score is ' + score + ' outof 6');
   return(alert);
+
 }
 result(alert);
