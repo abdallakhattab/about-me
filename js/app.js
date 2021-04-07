@@ -105,9 +105,10 @@ function season(d){
 season(d);
 
 function sum (alert){
+
   alert('your name is ' + username + ' and  my name is abdalla' + 'your age is' + age + ' and i am 24'
     + ' i am a pharmasist and you are a ' + profession );
-
+  console.log('mySummary');
   return(alert);
 
 }
@@ -129,7 +130,7 @@ function question6(num ){
     else if (num === '10') { var num = prompt('you are too high, try again') }
   }
   if (i === 5) { alert(' you spent all your chances sorry the correct Answer is 7'); }
-  console.log(i);
+  console.log(num);
 
 
 }
