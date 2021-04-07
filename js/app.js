@@ -142,6 +142,7 @@ let color = prompt('what is my favurate color? ', 'red , black ,blue , yellow , 
 let correctcolor = ['white', 'blue', 'red'];
 console.log(correctcolor);
 function question7(color){
+  console.log(color + ' is my color');
   for (var q = 0; q < 5; q++) {
     if (color === correctcolor[0] || color === correctcolor[1] || color === correctcolor[2]){
       alert('correct , great job !!');
