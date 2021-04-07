@@ -40,26 +40,27 @@ function userAge(age){
   }
 
 }
-userAge(age)
+userAge(age);
 
-let b = prompt(' is my favuorite pet cats ? ')
-b = b.toLowerCase()
+let b = prompt(' is my favuorite pet cats ? ');
+b = b.toLowerCase();
 
 function userpet(b ){
+  console.log(b + 'cats are my favourite');
   switch (b) {
-  case 'yes': alert('correct ')
-    score++
+  case 'yes': alert('correct ');
+    score++;
     break;
-  case 'y': alert('correct ')
-    score++
+  case 'y': alert('correct ');
+    score++;
     break;
-  case 'no': alert("nope")
+  case 'no': alert('nope');
     break;
-  case 'n': alert("nope")
+  case 'n': alert('nope');
     break;
   }
 }
-userpet(b )
+userpet(b );
 
 
 
