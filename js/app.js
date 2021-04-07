@@ -46,7 +46,7 @@ let b = prompt(' is my favuorite pet cats ? ');
 b = b.toLowerCase();
 
 function userpet(b ){
-  console.log(b + 'cats are my favourite');
+  console.log(b + ' cats are my favourite');
   switch (b) {
   case 'yes': alert('correct ');
     score++;
@@ -64,19 +64,20 @@ userpet(b );
 
 
 
-let c = prompt(' is my favuorite instrument piano ? ')
-c = c.toLowerCase()
+let c = prompt(' is my favuorite instrument piano ? ');
+c = c.toLowerCase();
 function instruments(c){
+  console.log(c + ' piano is my instrument')
   switch (c) {
-  case 'yes': alert('correct ')
+  case 'yes': alert('correct ');
     score++
     break;
-  case 'y': alert('correct ')
-    score++
+  case 'y': alert('correct ');
+    score++;
     break;
-  case 'no': alert("nope")
+  case 'no': alert('nope');
     break;
-  case 'n': alert("nope")
+  case 'n': alert('nope');
     break;
   }
 }
