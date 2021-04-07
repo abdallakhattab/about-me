@@ -18,24 +18,24 @@ console.log(profession)
 
 
 
-let score = 0
-let age = prompt('how old are you?')
+let score = 0;
+let age = prompt('how old are you?');
 
 function userAge(age){
-//console.log(age)
-  if (age > 18 && age < 28) { alert(' we are close in age i am ' + ownerage) }
-  let a = prompt(' doing well ??')
-  a = a.toLowerCase()
+  console.log(age);
+  if (age > 18 && age < 28) { alert(' we are close in age i am ' + ownerage); }
+  let a = prompt(' doing well ??');
+  a = a.toLowerCase();
   switch (a) {
-  case 'yes': alert('me too am happy with my life ')
-    score++
+  case 'yes': alert('me too am happy with my life ');
+    score++;
     break;
-  case 'y': alert('me too am happy with my life ')
-    score++
+  case 'y': alert('me too am happy with my life ');
+    score++;
     break;
-  case 'no': alert("i am sorry")
+  case 'no': alert('i am sorry');
     break;
-  case 'n': alert("i am sorry")
+  case 'n': alert('i am sorry');
     break;
   }
 
@@ -153,7 +153,7 @@ function question7(color){
 question7(color);
 
 function result(alert){
-alert('your score is ' + score + ' outof 6')
-return(alert);
+  alert('your score is ' + score + ' outof 6')
+  return(alert);
 }
 result(alert);
