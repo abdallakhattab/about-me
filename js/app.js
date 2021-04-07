@@ -130,7 +130,7 @@ function question6(num ){
     else if (num === '10') { var num = prompt('you are too high, try again') }
   }
   if (i === 5) { alert(' you spent all your chances sorry the correct Answer is 7'); }
-  console.log(num);
+  console.log(num +' is my fav number');
 
 
 }
