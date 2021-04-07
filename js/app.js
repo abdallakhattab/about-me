@@ -2,11 +2,8 @@
 
 let ownerage = 24
 let username = prompt('whats your name')
-function names(username) {
-    console.log(username);
 username = username.toLowerCase();
-}
-names(username);
+
 //console.log(username)
 let profession = prompt( ' welcome ' + username + ' my name is abdalla and i am a pharmasist you what is your profession?')
 profession = profession.toLowerCase();
