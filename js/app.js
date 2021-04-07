@@ -70,7 +70,7 @@ function instruments(c){
   console.log(c + ' piano is my instrument')
   switch (c) {
   case 'yes': alert('correct ');
-    score++
+    score++;
     break;
   case 'y': alert('correct ');
     score++;
@@ -85,19 +85,20 @@ instruments(c);
 
 
 
-let d = prompt(' do i love summer ?')
-d = d.toLowerCase()
+let d = prompt(' do i love summer ?');
+d = d.toLowerCase();
 function season(d){
+  console.log(d + ' summer is the best');
   switch (d) {
   case 'yes': alert('correct ');
-    score++
+    score++;
     break;
   case 'y': alert('correct ');
     score++;
     break;
-  case 'no': alert("nope");
+  case 'no': alert('nope');
     break;
-  case 'n': alert("nope");
+  case 'n': alert('nope');
     break;
   }
 }
